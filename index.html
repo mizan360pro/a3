@@ -243,55 +243,79 @@
       </div>
     </section>
 
-    <!-- Let's Connect Section -->
-<section class="bg-[url('./images/bg.jpg')] bg-no-repeat bg-cover p-10">
-  <div>
-    <div class="container mx-auto flex flex-col items-center justify-center">
-      <button class="rounded-full bg-[#d5f7a5] px-5 py-1.5 items-center mb-5">
-        <i class="fa-solid fa-arrow-right pr-2"></i>
-        Let's Connect
-      </button>
-      <h2 class="text-2xl font-black text-center mb-4">Let's Discuss Next Project</h2>
-      <p class="text-sm text-gray-500 text-center mb-8">The barn house captivates with its blend of rustic charm and  modern sophistication, featuring weathered wood, sleek metal accents.</p>
-      <form class="w-full lg:w-8/12">
-        <div class="flex flex-col lg:flex-row gap-2">
-          <div class="flex flex-col lg:w-[50%]">
-            <label for="firstName" class="block text-gray-700 mb-2"></label>
-            <input type="text" id="firstName" name="firstName" class="border rounded-full px-3 py-2" required placeholder="First Name*">
-          </div>
-          <div class="flex flex-col lg:w-[50%]">
-            <label for="lastName" class="block text-gray-700 mb-2"></label>
-            <input type="text" id="lastName" name="lastName" class="border rounded-full px-3 py-2" required placeholder="Last Name*">
-          </div>
+        <!-- Let's Connect Section -->
+    <section class="bg-[url('./images/bg.jpg')] bg-no-repeat bg-cover p-10">
+      <div>
+        <div class="container mx-auto flex flex-col items-center justify-center">
+          <button class="rounded-full bg-[#d5f7a5] px-5 py-1.5 items-center mb-5">
+            <i class="fa-solid fa-arrow-right pr-2"></i>
+            Let's Connect
+          </button>
+          <h2 class="text-2xl font-black text-center mb-4">Let's Discuss Next Project</h2>
+          <p class="text-sm text-gray-500 text-center mb-8">The barn house captivates with its blend of rustic charm and  modern sophistication, featuring weathered wood, sleek metal accents.</p>
+          <form class="w-full lg:w-8/12">
+            <div class="flex flex-col lg:flex-row gap-2">
+              <div class="flex flex-col lg:w-[50%]">
+                <label for="firstName" class="block text-gray-700 mb-2"></label>
+                <input type="text" id="firstName" name="firstName" class="border rounded-full px-3 py-2" required placeholder="First Name*">
+              </div>
+              <div class="flex flex-col lg:w-[50%]">
+                <label for="lastName" class="block text-gray-700 mb-2"></label>
+                <input type="text" id="lastName" name="lastName" class="border rounded-full px-3 py-2" required placeholder="Last Name*">
+              </div>
+            </div>
+            <div class="flex flex-col md:flex-row gap-2">
+              <div class="flex flex-col lg:w-[50%]">
+                <label for="phoneNumber" class="block text-gray-700 mb-2"></label>
+                <input type="tel" id="phoneNumber" name="phoneNumber" class="border rounded-full px-3 py-2" required placeholder="Phone Number*">
+              </div>
+              <div class="flex flex-col lg:w-[50%]">
+                <label for="email" class="block text-gray-700 mb-2"></label>
+                <input type="email" id="email" name="email" class="border rounded-full px-3 py-2" required placeholder="Email Address*">
+              </div>
+            </div>
+            <div class="flex flex-col">
+              <label for="message" class="block text-gray-700 mb-2"></label>
+              <textarea id="message" name="message" class="border rounded-3xl px-3 py-2 h-[240px]" required placeholder="Write your message here"></textarea>
+            </div>
+            <button type="submit" class="bg-[#ABEF5F] text-black font-black px-4 py-2 rounded-full hover:bg-green-600 mt-4 flex gap-3 w-full items-center justify-center">Send Mail 
+              <img src="./images/logo-icon-2.png" alt="Logo Icon 2">
+            </button>
+          </form>
         </div>
-        <div class="flex flex-col md:flex-row gap-2">
-          <div class="flex flex-col lg:w-[50%]">
-            <label for="phoneNumber" class="block text-gray-700 mb-2"></label>
-            <input type="tel" id="phoneNumber" name="phoneNumber" class="border rounded-full px-3 py-2" required placeholder="Phone Number*">
-          </div>
-          <div class="flex flex-col lg:w-[50%]">
-            <label for="email" class="block text-gray-700 mb-2"></label>
-            <input type="email" id="email" name="email" class="border rounded-full px-3 py-2" required placeholder="Email Address*">
-          </div>
-        </div>
-        <div class="flex flex-col">
-          <label for="message" class="block text-gray-700 mb-2"></label>
-          <textarea id="message" name="message" class="border rounded-3xl px-3 py-2 h-[240px]" required placeholder="Write your message here"></textarea>
-        </div>
-        <button type="submit" class="bg-[#ABEF5F] text-black font-black px-4 py-2 rounded-full hover:bg-green-600 mt-4 flex gap-3 w-full items-center justify-center">Send Mail 
-          <img src="./images/logo-icon-2.png" alt="Logo Icon 2">
-        </button>
-      </form>
-    </div>
 
-  </div>
+      </div>
 
-</section>
+    </section>
+
+    <section class="bg-black">
+      <footer class="lg:container mx-auto">
+        <div class="flex flex-col items-center p-10">
+          <!-- Footer Logo -->
+          <div class="flex items-center gap-2">
+            <img class="size-7" src="./images/logo-icon1.png" alt="Rinterio Logo" class="w-6 h-6 mr-2">
+            <h2 class="text-2xl font-bold text-white">Rinterio</h2>
+          </div>
+          <p class="text-base text-[#737373] mt-4 text-center lg:w-[60%]">The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal accents.</p>
+          <nav class="mt-4">
+            <ul class="space-y-4 text-center py-6 justify-center lg:flex lg:space-x-5 lg:space-y-0">
+              <li><a href="#" class="text-gray-300 hover:text-white">Home</a></li>
+              <li><a href="#" class="text-gray-300 hover:text-white">Services</a></li>
+              <li><a href="#" class="text-gray-300 hover:text-white">Portfolio</a></li>  
+              <li><a href="#" class="text-gray-300 hover:text-white">Blogs</a></li>
+              <li><a href="#" class="text-gray-300 hover:text-white">Contact Us</a></li>
+            </ul>
+          </nav>
+          <button type="submit" class="bg-[#ABEF5F] text-black font-black px-4 py-2 rounded-full hover:bg-green-600 mt-4 flex gap-3 w-full items-center justify-center lg:w-fit">Book Consult 
+            <img src="./images/logo-icon-2.png" alt="Logo Icon 2">
+          </button>
+        </div>
+      </footer>
+    </section>
+
+
 
   </main>
 
-    <footer>
-
-    </footer>
 </body>
 </html>
